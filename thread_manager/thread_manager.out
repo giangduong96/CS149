@@ -1,0 +1,29 @@
+create first thread
+create second thread
+wait for first thread to exit
+This is thread 123145376813056 (p =0x0).
+This is thread 123145377349632 (p =0x0).
+This is thread 123145376813056 and I created the THREADDATA 0x7fc58fd05830
+This is thread 123145377349632 and I can access the THREADDATA 0x7fc58fd05830
+LogIndex 1, thread 123145377349632, PID: 40914, Fri May  1 21:22:58 2020
+.Head of linked list contains line Giang
+
+LogIndex 2, thread 123145377349632, PID: 40914, Fri May  1 21:22:59 2020
+.Head of linked list contains line Duong
+
+LogIndex 3, thread 123145377349632, PID: 40914, Fri May  1 21:23:00 2020
+.Head of linked list contains line Van
+
+LogIndex 4, thread 123145377349632, PID: 40914, Fri May  1 21:23:01 2020
+.Head of linked list contains line Truong
+
+This is thread 123145376813056 and I did not touch THREADDATA
+LogIndex 4, thread 123145377349632, PID: 40914, Fri May  1 21:23:01 2020
+.Head of linked list contains line Van
+
+Done with deallocate by pop.
+Done with deallocated memory!
+This is thread 123145377349632 and I deleted the THREADDATA.
+first thread exited
+wait for the second thread to exit
+second thread exited
